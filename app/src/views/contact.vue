@@ -1,5 +1,5 @@
 <template>
-  <div class="home-page">
+  <div class="contact-page">
     <div>{{ name }} Page</div>
     <router-link to="/home">home</router-link>
     <router-link to="/about">about</router-link>
@@ -11,7 +11,7 @@
 export default {
   data() {
     return {
-      name: 'Home',
+      name: 'Contact',
     }
   }
 }
@@ -19,7 +19,7 @@ export default {
 
 
 <style lang="less">
-.home-page {
+.contact-page {
   font-size: 20px;
 }
 </style>

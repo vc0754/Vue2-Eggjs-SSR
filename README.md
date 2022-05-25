@@ -1,6 +1,7 @@
 # ssr
 
-
+npm run build 生成 html 页面
+再由 egg cli 控制 server 状态
 
 ## QuickStart
 
